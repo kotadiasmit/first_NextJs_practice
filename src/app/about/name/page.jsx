@@ -9,3 +9,9 @@ const Name = () => {
 };
 
 export default Name;
+
+export function generateMetadata({}) {
+  return {
+    title: "Smit Name Page",
+  };
+}

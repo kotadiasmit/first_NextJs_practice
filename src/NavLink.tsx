@@ -19,10 +19,10 @@ export function NavLink({
 }: NavLinkProps) {
   const pathname = usePathname();
   const isActive = !exact ? pathname === href : pathname.startsWith(href);
-  console.log(href);
-  console.log(pathname);
-  console.log(pathname.startsWith(href));
-  console.log(isActive);
+  // console.log(href);
+  // console.log(pathname);
+  // console.log(pathname.startsWith(href));
+  // console.log(isActive);
   if (isActive) {
     className += " active";
   }
