@@ -29,6 +29,9 @@ const Nav = () => {
           <NavLink href={"/about/name"}>Name</NavLink>
         </li>
         <li className="ml-4 p-2 rounded-md hover:shadow-inner hover:shadow-slate-500">
+          <NavLink href={"/users"}>Users</NavLink>
+        </li>
+        <li className="ml-4 p-2 rounded-md hover:shadow-inner hover:shadow-slate-500">
           <NavLink href={"/about/Contact"}>Contact</NavLink>
         </li>
       </ul>

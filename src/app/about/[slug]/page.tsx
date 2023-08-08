@@ -21,7 +21,7 @@ const QueryPage = ({ params }: { params: { slug: number } }) => {
         onClick={() => {
           router.push("/");
         }}
-        className={`${style1.main} hover:bg-blue-600 text-white rounded-md px-2`}
+        className={`${style1.main} hover:bg-blue-600`}
       >
         Home
       </button>
