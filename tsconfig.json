@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "src/app/about.jsx",
     "src/app/page.jsx",
-    "src/app/loading.jsx"
+    "src/app/loading.jsx",
+    "src/app/api/usersData/[id]/route.js"
   ],
   "exclude": ["node_modules"]
 }
